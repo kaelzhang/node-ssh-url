@@ -1,0 +1,28 @@
+{
+  "name": "ssh-url",
+  "version": "0.1.0",
+  "description": "ssh-url",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kaelzhang/node-ssh-url.git"
+  },
+  "keywords": [
+    "ssh-url"
+  ],
+  "engines": { 
+    "node": ">=0.8.0"
+  },
+  "author": "kael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaelzhang/node-ssh-url/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "chai": "~1.8.0"
+  }
+}
