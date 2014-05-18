@@ -1,11 +1,20 @@
 {
   "name": "ssh-url",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ssh-url",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
+  "keywords": [
+    "url",
+    "format",
+    "ssh",
+    "scp",
+    "resolve",
+    "parse",
+    "resolution"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:kaelzhang/node-ssh-url.git"
