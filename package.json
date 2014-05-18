@@ -1,6 +1,6 @@
 {
   "name": "ssh-url",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ssh-url",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/kaelzhang/node-ssh-url/issues"
   },
   "devDependencies": {
-    "mocha": "~1.13.0",
-    "chai": "~1.8.0"
+    "mocha": "^1.13.0",
+    "chai": "^1.8.0"
   }
 }
