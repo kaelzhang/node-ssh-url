@@ -18,7 +18,7 @@ var parsed = url.parse('git@github.com:kaelzhang/node-ssh-url.git');
 //   protocol: null,
 //   user: 'git',
 //   hostname: 'github.com',
-//   pathname: 'kaelzhang/node-ssh-url.git'
+//   pathname: '/kaelzhang/node-ssh-url.git'
 // }
 
 url.format(parsed);
