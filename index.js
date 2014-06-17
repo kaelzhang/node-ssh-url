@@ -37,7 +37,7 @@ function parseScpSsh(str) {
     protocol: null,
     user: parsed.auth,
     hostname: parsed.hostname,
-    pathname: parsed.pathname.replace(/^\/:/, '/')
+    pathname: (parsed.pathname || '').replace(/^\/:/, '/')
   };
 };
 
@@ -46,5 +46,5 @@ function formatSsh (obj) {
 }
 
 function formatScpSsh (obj) {
-  return obj.user + '@' + obj.hostname + ':' + obj.pathname.replace(/^\//, '');
+  return obj.user + '@' + obj.hostname + ':' + (obj.pathname || '').replace(/^\//, '');
 }
